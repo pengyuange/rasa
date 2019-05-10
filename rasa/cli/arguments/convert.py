@@ -11,12 +11,3 @@ def add_arguments(parser):
     )
 
     parser.add_argument("-l", "--language", default="en", help="language of the data")
-
-    parser.add_argument(
-        "-f",
-        "--format",
-        required=True,
-        choices=["json", "md"],
-        help="Output format the training data should be converted into.",
-    )
-    return parser
