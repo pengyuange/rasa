@@ -76,7 +76,7 @@ install_requires = [
     "python-socketio~=3.0",
     "pydot~=1.4",
     "async_generator~=1.10",
-    "SQLAlchemy~=1.2.18",
+    "SQLAlchemy~=1.3",
     "kafka-python~=1.4",
     "sklearn-crfsuite~=0.3.6",
 ]
@@ -85,8 +85,7 @@ extras_requires = {
     "test": tests_requires,
     "spacy": ["spacy>=2.0,<2.2"],
     "mitie": ["mitie"],
-    "sql": ["psycopg2~=2.8.2",
-            "SQLAlchemy~=1.3"],
+    "sql": ["psycopg2~=2.8.2", "SQLAlchemy~=1.3"],
 }
 
 setup(
